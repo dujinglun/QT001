@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form2</class>
+ <widget class="QWidget" name="Form2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>msyh</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_exit">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>153</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>msyh</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>exit</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sendlineEdit">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>200</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>msyh</family>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_sbdrb">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>153</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>msyh</family>
+     <pointsize>9</pointsize>
+     <kerning>false</kerning>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 170, 0);</string>
+   </property>
+   <property name="text">
+    <string>CheckNew</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_sbdi">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>111</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>msyh</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 170, 0);</string>
+   </property>
+   <property name="text">
+    <string>GetMail</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_csq">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>10</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>msyh</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 170, 0);</string>
+   </property>
+   <property name="text">
+    <string>CSQ</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="label_csq">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>41</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(65, 166, 255);</string>
+   </property>
+   <property name="digitCount">
+    <number>1</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_wb_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>msyh</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 170, 0);</string>
+   </property>
+   <property name="text">
+    <string>debug</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonSign">
+   <property name="geometry">
+    <rect>
+     <x>113</x>
+     <y>111</y>
+     <width>80</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>msyh</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 127);</string>
+   </property>
+   <property name="text">
+    <string>Sign</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_sendMail">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>111</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>msyh</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 85, 0);</string>
+   </property>
+   <property name="text">
+    <string>SendMail</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sendlineEdit_RcvedMail">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;msyh&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sendlineEdit_ToSendNum">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>60</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>msyh</family>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>BlankCursor</cursorShape>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
